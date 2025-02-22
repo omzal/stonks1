@@ -1,4 +1,4 @@
-name: cron
+name: cron2
 on:
   schedule:
     - cron: '0 * * * *'
@@ -35,4 +35,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: stonks.jossef.com
